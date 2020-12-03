@@ -1,0 +1,183 @@
+{
+    "textBox": {
+        "label": "Content-Box",
+        "dialog": "normal",
+        "children": true,
+        "fields": [
+            {
+                "name": "headline",
+                "label": "\u00dcberschrift",
+                "type": "text",
+                "default": "",
+                "info": "",
+                "group": "",
+                "localize": false,
+                "options": [],
+                "width": "1-1",
+                "lst": true,
+                "acl": [],
+                "required": true
+            }
+        ],
+        "group": "Fubic"
+    },
+    "partner": {
+        "label": "Partner",
+        "dialog": "normal",
+        "children": false,
+        "fields": [
+            {
+                "name": "headline",
+                "label": "\u00dcberschrift",
+                "type": "text",
+                "default": "",
+                "info": "",
+                "group": "",
+                "localize": false,
+                "options": [],
+                "width": "1-1",
+                "lst": true,
+                "acl": [],
+                "required": true
+            }
+        ],
+        "group": "Fubic"
+    },
+    "findings": {
+        "label": "Ergebnisse",
+        "dialog": "normal",
+        "children": false,
+        "fields": [
+            {
+                "name": "headline",
+                "label": "\u00dcberschrift",
+                "type": "text",
+                "default": "",
+                "info": "",
+                "group": "",
+                "localize": false,
+                "options": [],
+                "width": "1-1",
+                "lst": true,
+                "acl": [],
+                "required": true
+            }
+        ],
+        "group": "Fubic"
+    },
+    "showMore": {
+        "label": "Mehr anzeigen",
+        "dialog": "normal",
+        "children": true,
+        "fields": [
+            {
+                "name": "title",
+                "label": "",
+                "type": "text",
+                "default": "",
+                "info": "",
+                "group": "",
+                "localize": false,
+                "options": [],
+                "width": "1-1",
+                "lst": true,
+                "acl": []
+            }
+        ],
+        "group": "Fubic"
+    },
+    "link": {
+        "label": "Link",
+        "dialog": "normal",
+        "children": false,
+        "fields": [
+            {
+                "name": "text",
+                "label": "Link-Text",
+                "type": "text",
+                "default": "",
+                "info": "",
+                "group": "",
+                "localize": false,
+                "options": [],
+                "width": "1-1",
+                "lst": true,
+                "acl": []
+            },
+            {
+                "name": "url",
+                "label": "Url",
+                "type": "text",
+                "default": "",
+                "info": "",
+                "group": "",
+                "localize": false,
+                "options": [],
+                "width": "1-1",
+                "lst": true,
+                "acl": []
+            }
+        ],
+        "group": "Fubic"
+    },
+    "download": {
+        "label": "Download",
+        "dialog": "normal",
+        "children": false,
+        "fields": [
+            {
+                "name": "image",
+                "label": "Image",
+                "type": "image",
+                "default": "",
+                "info": "",
+                "group": "",
+                "localize": false,
+                "options": [],
+                "width": "1-1",
+                "lst": true,
+                "acl": []
+            },
+            {
+                "name": "title",
+                "label": "\u00dcberschrift",
+                "type": "text",
+                "default": "",
+                "info": "",
+                "group": "",
+                "localize": false,
+                "options": [],
+                "width": "1-1",
+                "lst": true,
+                "acl": []
+            },
+            {
+                "name": "text",
+                "label": "Text",
+                "type": "text",
+                "default": "",
+                "info": "",
+                "group": "",
+                "localize": false,
+                "options": [],
+                "width": "1-1",
+                "lst": true,
+                "acl": []
+            },
+            {
+                "name": "file",
+                "label": "Datei",
+                "type": "asset",
+                "default": "",
+                "info": "",
+                "group": "",
+                "localize": false,
+                "options": [],
+                "width": "1-1",
+                "lst": true,
+                "acl": []
+            }
+        ],
+        "group": "Fubic"
+    }
+}

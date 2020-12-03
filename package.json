@@ -1,0 +1,14 @@
+{
+  "name": "React-Projekt",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "init": "concurrently 'npm start --prefix ./cockpit' 'npm install --prefix ./app'",
+    "start": "concurrently 'npm start --prefix ./cockpit' 'npm start --prefix ./app'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.3.0"
+  }
+}

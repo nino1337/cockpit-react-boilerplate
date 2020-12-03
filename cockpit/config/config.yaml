@@ -1,0 +1,17 @@
+languages:
+  default: Deutsch
+groups:
+  author:
+    $admin: false
+    cockpit:
+      backend: true
+      finder: true
+    collections:
+      manage: true
+    singletons:
+      manage: true
+app.name: "REACT-APP"
+dashboardgrid:
+  bottom:
+    rows: 1
+    columns: 1
