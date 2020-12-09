@@ -55,15 +55,3 @@ Before starting to set up the workflow, make sure to have **Node** and **docker*
 4. Once done, run `npm start`.
 5. Under http://localhost:8080 you should now be able to log-in with admin/admin. On http://localhost:3000 you should see the frontend with some pre-defined pages you can navigate to.
 6. Happy coding
-
-## Important Information
-
-#### Don't touch folders in the cockpit directory (unless you know, what you are doing)
-
-- Files in these folders are in sync with files laying on our docker container (see volumes in docker-compose file)
-- Thus, editing or maintaining something in cockpit, automatically changes files on our local machine and vice versa
-- This brings advantages like importing initial data on start up and having synchronous data across the team, so make sure to check them into git aswell
-  
-#### Add Layout Components
-
-- in cockpit navigate to settings -> Layout Components, to add your own components
