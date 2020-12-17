@@ -9,12 +9,12 @@
 
 [Cockpit](https://getcockpit.com) serves as our [headless cms](https://en.wikipedia.org/wiki/Headless_content_management_system). Cockpit is php based, thus it brings the advantage, that no node is required on our hosting server.
 
-### Next.js
+### React
 
-- [Homepage](https://nextjs.org/)
-- [Github Repository](https://github.com/vercel/next.js/)
+- [Homepage](https://reactjs.org/)
+- [Github Repository](https://github.com/facebook/react/)
 
-[Next.js](https://nextjs.org/) on the other hand is used to generate our [static web page](https://en.wikipedia.org/wiki/Static_web_page). While exporting our app, it will pre-render every page, we defined, which brings several advantages, like SEO-friendliness and performance boosts.
+React on the other hand is used to build our dynamic frontend. It firstly of course renders our components and secondly handles client side routing with the react-router-dom library.
 
 ### Jest
 
